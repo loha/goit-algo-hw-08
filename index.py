@@ -21,7 +21,6 @@ def min_cost_to_connect_cables(lengths):
     
     return total_cost
 
-# Приклад використання:
 cable_lengths = [8, 4, 6, 12]
 min_cost = min_cost_to_connect_cables(cable_lengths)
 print("Мінімальні витрати на з'єднання кабелів:", min_cost)
